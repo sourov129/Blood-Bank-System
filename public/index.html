@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donate System</title>
+    <link rel="stylesheet" type="text/css" href="home_style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/173dc7d1ab.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <img src="blood3-modified.png" alt="" height="50" width="50" style="margin: 5px;">
+      <a class="navbar-brand" href="index.html">Blood Donate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" href="/bank">Find Donors</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/donate">Be a Donor</a>
+          </li>
+
+          
+        </ul>
+        <div class="d-flex justify-content-center h-100">
+          <div class="searchbar">
+            <input class="search_input" type="text" name="" placeholder="Search...">
+            <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+          </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div>
+    
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="rsz_16553659.jpg" class="d-block w-100" alt="image1" style="height: 550px;">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="rsz_12381635.jpg" class="d-block w-100" alt="image2" style="height: 550px;">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="rsz_2381649.jpg" class="d-block w-100" alt="image3" style="height: 550px;">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+
+  <section class="griding">
+
+    <div class="network" >
+
+    <h1><span style="color: red; font-weight: bold;"> Benefited </span> from our <span style="color: red;">website</span></h1>
+
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <h3 class="hdtag">Donate Blood</h3>
+          <img src="handblood.png" alt="donate blood" style="height: 120px; width: 120px;">
+          <h3 class="hdtag">1200 People</h3>
+        </div>
+        <div class="col">
+          <h3 class="hdtag">Receive Blood</h3>
+          <img src="donate.png" alt="Receive blood" style="height: 120px; width: 120px;">
+          <h3 class="hdtag">800 People</h3>
+        </div>
+        <div class="col">
+          <h3 class="hdtag">Donars</h3>
+          <img src="clipart3031720.png" alt="donate blood" style="height: 120px; width: 120px;">
+          <h3 class="hdtag">1600 People</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- 
+  <div>
+    <h2 class="hdtag" style="text-align: center;">Search Donors</h2>
+  </div> -->
+  <div class="container-flex">
+<div class="row justify-content-center py-3">
+  <div class="col-lg-auto">
+    <label for="bloodgroup"><h4>Blood Group</h4>  </label>
+    <select class="form-select" aria-label="Default select example" style="width: 250px;">
+      <option value=" "> Select </option>
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+    </select>
+  </div>
+
+  <div class="col-lg-auto">
+    <label for="district"><h4>District</h4>  </label>
+    <select class="form-select" aria-label="Default select example" style="width: 250px; display: flex;">
+    <option value="">Select</option>
+    <option value="Bagerhat">Bagerhat</option>
+    <option value="Bandarban">Bandarban</option>
+    <option value="Barguna">Barguna</option>
+    <option value="Barisal">Barisal</option>
+    <option value="Bhola">Bhola</option>
+    <option value="Bogra">Bogra</option>
+    <option value="Brahmanbaria">Brahmanbaria</option>
+    <option value="Chandpur">Chandpur</option>
+    <option value="Chapainawabganj">Chapainawabganj</option>
+    <option value="Chittagong">Chittagong</option>
+    <option value="Chuadanga">Chuadanga</option>
+    <option value="Comilla">Comilla</option>
+    <option value="Coxs Bazar">Cox's Bazar</option>
+    <option value="Dhaka">Dhaka</option>
+    <option value="Dinajpur">Dinajpur</option>
+    <option value="Faridpur">Faridpur</option>
+    <option value="Feni">Feni</option>
+    <option value="Gaibandha">Gaibandha</option>
+    <option value="Gazipur">Gazipur</option>
+    <option value="Gopalganj">Gopalganj</option>
+    <option value="Habiganj">Habiganj</option>
+    <option value="Jamalpur">Jamalpur</option>
+    <option value="Jessore">Jessore</option>
+    <option value="Jhalokati">Jhalokati</option>
+    <option value="Jhenaidah">Jhenaidah</option>
+    <option value="Joypurhat">Joypurhat</option>
+    <option value="Khagrachari">Khagrachari</option>
+    <option value="Khulna">Khulna</option>
+    <option value="Kishoreganj">Kishoreganj</option>
+    <option value="Kurigram">Kurigram</option>
+    <option value="Kushtia">Kushtia</option>
+    <option value="Lakshmipur">Lakshmipur</option>
+    <option value="Lalmonirhat">Lalmonirhat</option>
+    <option value="Madaripur">Madaripur</option>
+    <option value="Magura">Magura</option>
+    <option value="Manikganj">Manikganj</option>
+    <option value="Meherpur">Meherpur</option>
+    <option value="Moulvibazar">Moulvibazar</option>
+    <option value="Munshiganj">Munshiganj</option>
+    <option value="Mymensingh">Mymensingh</option>
+    <option value="Naogaon">Naogaon</option>
+    <option value="Narail">Narail</option>
+    <option value="Narayanganj">Narayanganj</option>
+    <option value="Narsingdi">Narsingdi</option>
+    <option value="Natore">Natore</option>
+    <option value="Netrokona">Netrokona</option>
+    <option value="Nilphamari">Nilphamari</option>
+    <option value="Noakhali">Noakhali</option>
+    <option value="Pabna">Pabna</option>
+    <option value="Panchagarh">Panchagarh</option>
+    <option value="Patuakhali">Patuakhali</option>
+    <option value="Pirojpur">Pirojpur</option>
+    <option value="Rajbari">Rajbari</option>
+    <option value="Rajshahi">Rajshahi</option>
+    <option value="Rangamati">Rangamati</option>
+    <option value="Rangpur">Rangpur</option>
+    <option value="Satkhira">Satkhira</option>
+    <option value="Shariatpur">Shariatpur</option>
+    <option value="Sherpur">Sherpur</option>
+    <option value="Sirajganj">Sirajganj</option>
+    <option value="Sunamganj">Sunamganj</option>
+    <option value="Sylhet">Sylhet</option>
+    <option value="Tangail">Tangail</option>
+    <option value="Thakurgaon">Thakurgaon</option>
+  </select>
+
+  
+  </div>
+  <div class="col-lg-auto">
+    <button type="submit" class="btn btn-danger" style="margin-top: 35px; margin-bottom: 35px;">Search</button></div>
+
+  </div>
+</div>
+</div>
+  <div>
+  
+  </form>
+
+  </div>
+
+
+
+
+
+  <div>
+    <section class="connect">
+
+      <div class="network" >
+  
+      <h1><span style="color: red;"> We'</span>re a <span style="color: red;">network</span> of</h1>
+  
+      </div>
+  
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="location.png" alt="donate blood" style="height: 120px; width: 120px;">
+            <h3 class="hdtag">64 District</h3>
+          </div>
+          <div class="col">
+            <img src="group.png" alt="Receive blood" style="height: 120px; width: 120px;">
+            <h3 class="hdtag">30 Group</h3>
+          </div>
+          <div class="col">
+            <img src="support.png" alt="donate blood" style="height: 120px; width: 120px;">
+            <h3 class="hdtag">100 Help Support</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+
+  <section class="footer" style="padding-top: 10px; padding-bottom: 10px;">
+       
+        <div
+             class="text-center p-3"
+             style="background-color: #e64165"
+             >
+          © 2020 Copyright:
+          <a class="text-white" href="index.html"
+             >Blood Donate</a
+            >
+        </div>
+        <!-- Copyright -->
+    <!-- End of .container -->
+  </section>
+
+  
+
+    
+    
+</body>
+</html>
